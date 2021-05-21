@@ -15,7 +15,7 @@ export default (description, generateGame) => {
     const correctAnswer = cdr(questionAnswer);
     if (userAnswer !== correctAnswer) {
       console.log(
-        `${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${name}`,
+        `${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${name}!`,
       );
       return;
     }
