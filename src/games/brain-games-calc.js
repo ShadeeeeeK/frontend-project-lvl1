@@ -1,4 +1,3 @@
-/* eslint-disable operator-linebreak */
 import { cons } from '@hexlet/pairs';
 import play from '../index.js';
 import getRandomNum from '../utils.js';
